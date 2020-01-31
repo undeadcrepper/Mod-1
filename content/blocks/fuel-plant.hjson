@@ -2,7 +2,7 @@ type: GenericCrafter
 name: "Fuel Plant"
 description: "Creates fuel for everyday use. "
 liquidCapacity: 50
-liquid: {
+outputliquid: {
   liquid: fuel
   amount: 1
 }
