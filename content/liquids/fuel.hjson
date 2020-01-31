@@ -3,7 +3,7 @@ description: "A basic fuel"
 temperature: 0.3,
 flammability: 0.7,
 explosiveness: 0.3,
-heatCapacity: .1,
+heatCapacity: 0.1,
 viscosity: 0.4,
 color: "ffff00"
 barColor: "ffff00"
