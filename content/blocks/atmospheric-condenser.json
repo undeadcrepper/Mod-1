@@ -1,0 +1,22 @@
+type: GenericCrafter
+name: "Atmospheric Condenser"
+description: "collects water from the air"
+liquidCapacity: 50
+outputLiquid: {
+  liquid: water
+  amount: 50
+}
+size: 1
+hasPower: true
+hasLiquids: true
+craftTime: 10
+consumes: {
+  power: 0.5
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: duo
