@@ -1,0 +1,22 @@
+type: SingleTypeGenerator
+name: Fuel Generator
+description: Generates energy from fuel.
+size: 2
+hasPower: true
+hasItems: true
+liquidDuration: 30
+powerProduction: 1.2
+consumes: {
+  liquid: {
+    liquid: fuel
+    amount: 25
+  }
+}
+requirements: [
+  metaglass/50
+  silicon/60
+  electrum/50
+  titanium/100
+]
+category: power
+research: fuel-plant
