@@ -16,9 +16,8 @@ craftTime: 10
 consumes: {
   power: 0.6
   liquid:{
-    liquid:[
-    oil/1
-    ]
+    liquid: oil
+    amount: 1
   }
     items:{
       items:[
