@@ -4,7 +4,7 @@ description: "Creates fuel for everyday use. "
 liquidCapacity: 50
 outputLiquid: {
   liquid: fuel
-  amount: 7
+  amount: 1
 }
 size: 2
 hasPower: true
