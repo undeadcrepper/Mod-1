@@ -4,9 +4,9 @@ description: "Creates fuel for everyday use. "
 health: 150
 liquidCapacity: 50
 itemCapacity: 50
-outputliquid: {
+outputLiquid: {
   liquid: fuel
-  amount: 1
+  amount: 8
 }
 size: 2
 hasPower: true
