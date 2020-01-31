@@ -15,12 +15,12 @@ hasItems: true
 craftTime: 10
 consumes: {
   power: 0.6
-  liquids:{
+  liquid:{
     liquid:[
     oil/1
     ]
    }
-  items:{
+  item:{
      items:[
     coal/1
     ]
