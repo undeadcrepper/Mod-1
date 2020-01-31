@@ -2,6 +2,7 @@ type: GenericCrafter
 name: "Fuel Plant"
 description: "Creates fuel for everyday use. "
 liquidCapacity: 50
+itemCapacity: 50
 outputliquid: {
   liquid: fuel
   amount: 1
@@ -9,11 +10,15 @@ outputliquid: {
 size: 2
 hasPower: true
 hasLiquids: true
+hasItems: true
 craftTime: 10
 consumes: {
   power: 0.6
+  liquid: {
+    liquid: oil
+    amount: 1
+    }
   item: coal
-  liquid: oil
 }
 requirements: [
   lead/25
