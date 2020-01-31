@@ -6,3 +6,4 @@ explosiveness: 0.3,
 heatCapacity: .1,
 viscosity: 0.4,
 color: "ffff00"
+barcolor: "ffff00"
