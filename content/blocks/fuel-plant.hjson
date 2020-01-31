@@ -18,12 +18,12 @@ consumes: {
   inputLiquid:{
     liquid: oil
     amount: 1
-   }
+  }
   item:{
-     items:{
+    items:{
     coal/1
     }
-   }
+  }
 }
 requirements: [
   lead/25
