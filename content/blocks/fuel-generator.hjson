@@ -4,7 +4,6 @@ description: Generates energy from fuel.
 size: 2
 hasPower: true
 hasLiquids: true
-itemDuration: 30
 powerProduction: 1.2
 consumes: {
   liquid: {
