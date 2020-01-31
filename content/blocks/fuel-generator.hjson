@@ -3,7 +3,7 @@ name: Fuel Generator
 description: Generates energy from fuel.
 size: 2
 hasPower: true
-hasItems: true
+hasLiquids: true
 liquidDuration: 30
 powerProduction: 1.2
 consumes: {
@@ -15,7 +15,7 @@ consumes: {
 requirements: [
   metaglass/50
   silicon/60
-  electrum/50
+  graphite/50
   titanium/100
 ]
 category: power
