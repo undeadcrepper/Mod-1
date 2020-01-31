@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: "Fuel Plant"
+description: "Creates fuel for everyday use. "
+liquidCapacity: 50
+outputLiquid: {
+  liquid: fuel
+  amount: 7
+}
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 10
+consumes: {
+  power: 0.6
+  item: coal
+  fluid: oil
+}
+requirements: [
+  lead/25
+  copper/100
+  silicon/32
+  titanium/25
+]
+category: crafting
+research: kiln
