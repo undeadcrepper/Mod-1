@@ -1,25 +1,27 @@
-type: SingleTypeGenerator
+type: PowerGenerator
 name: "Fuel Generator"
 description: "Generates energy from fuel."
 size: 2
-hasLiquids: true
+hasLiquid: true
+hasItems: false
+hasPower: true
 outputsPower: true
 consumesPower: true
 liquidCapacity: 1000
 powerProduction: 0.7
-consumes: {
-  power: 0.1
-  liquid: {
-    liquid: fuel
-    amount: 1
-  }
+consumes: { 
+   liquid: { 
+        liquid: fuel 
+        amount: 1
+    }
+    power: 0.1
 }
 requirements: [
-  metaglass/50
-  silicon/60
-  graphite/50
-  titanium/100
-]
-category: power
-research: fuel-plant
+ metaglass/50 
+ silicon/60 
+ graphite/50 
+ titanium/100
+ ]
+ category: power
+ research: fuel-plant
 
