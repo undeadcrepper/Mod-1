@@ -1,4 +1,4 @@
-type: ImpactGenerator
+type: SingleTypeGenerator
 name: "Fuel Generator"
 description: "Generates energy from fuel."
 size: 2
@@ -6,8 +6,9 @@ hasLiquids: true
 outputsPower: true
 consumesPower: true
 liquidCapacity: 1000
+powerProduction: 0.7
 consumes: {
-  power: 10
+  power: .1
   liquid: {
     liquid: fuel
     amount: 1
