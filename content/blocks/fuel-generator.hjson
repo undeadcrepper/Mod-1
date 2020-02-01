@@ -7,6 +7,7 @@ hasLiquids: true
 liquidCapacity: 1000
 itemDuration: 100
 consumes: {
+  power: 15
   liquid: {
     liquid: fuel
     amount: 1
