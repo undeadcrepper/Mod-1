@@ -3,10 +3,10 @@ name: "Fuel Generator"
 description: "Generates energy from fuel."
 size: 2
 hasLiquids: true
-"outputsPower": true,
-"consumesPower": true,
-"plasmas": 0.01,
-"warmupSpeed": 0.0001,
+outputsPower: true
+consumesPower: true
+plasmas: 0.01
+warmupSpeed: 0.0001
 liquidCapacity: 1000
 itemDuration: 100
 powerProduction: 0.7
