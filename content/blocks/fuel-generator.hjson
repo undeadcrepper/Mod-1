@@ -1,13 +1,10 @@
-type: PowerGenerator
+type: SingleTypeGenerator
 name: "Fuel Generator"
 description: "Generates energy from fuel."
 size: 2
 hasLiquid: true
-hasItems: false
-hasPower: true
 outputsPower: true
 consumesPower: true
-consumesLiquid: true
 liquidCapacity: 1000
 powerProduction: 0.7
 consumes: {
