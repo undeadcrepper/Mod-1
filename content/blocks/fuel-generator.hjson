@@ -9,7 +9,7 @@ powerProduction: 1.5
 consumes: {
   liquid: {
     liquid: fuel
-    amount: 25
+    amount: 1
   }
 }
 requirements: [
