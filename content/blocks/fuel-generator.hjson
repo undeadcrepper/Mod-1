@@ -1,4 +1,4 @@
-type: LiquidTypeGenerator
+type: PowerGenerator
 name: Fuel Generator
 description: Generates energy from fuel.
 size: 2
