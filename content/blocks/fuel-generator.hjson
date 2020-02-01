@@ -5,7 +5,7 @@ size: 2
 hasPower: true
 hasLiquids: true
 liquidCapacity: 1000
-powerProduction: 1.5
+powerProduction: 0.7
 consumes: {
   liquid: {
     liquid: fuel
