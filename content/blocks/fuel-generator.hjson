@@ -10,12 +10,12 @@ consumesPower: true
 consumesLiquid: true
 liquidCapacity: 1000
 powerProduction: 0.7
-consumes: { 
+consumes: {
+   power: 0.1
    liquid: { 
-        liquid: fuel 
-        amount: 1
-    }
-    power: 0.1
+   liquid: fuel 
+   amount: 1
+   }
 }
 requirements: [
  metaglass/50 
