@@ -4,13 +4,12 @@ description: Generates energy from fuel.
 size: 2
 hasPower: true
 hasLiquids: true
-liquidCapacity: 10000
-maxLiquidEfficiency: .5
-powerProduction: 1.2
+liquidCapacity: 1000
+powerProduction: 1.5
 consumes: {
   liquid: {
     liquid: fuel
-    amount: 5
+    amount: 25
   }
 }
 requirements: [
