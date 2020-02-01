@@ -2,7 +2,6 @@ type: ImpactGenerator
 name: Fuel Generator
 description: Generates energy from fuel.
 size: 2
-hasPower: true
 hasLiquids: true
 liquidCapacity: 1000
 itemDuration: 100
